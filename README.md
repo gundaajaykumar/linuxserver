@@ -9,6 +9,22 @@ Server IP Address 13.232.124.125
 
 Hosted site Url http://13.232.124.125.xip.io/
 
+### List packages installed:
+
+* apache2
+
+* libapache2-mod-wsgi
+
+* finger
+
+* postgresql
+
+* sqlalchemy
+
+* flask
+
+* git
+
 ### How to connect as grader:
 
   save private key provided in your local machine and run the following command
@@ -295,4 +311,9 @@ sudo apt-get upgrade
    #### Final Step
    Restart your apache2 server
    
-   `sudo service apache2 restart`
+   sudo service apache2 restart`
+   
+   ### Third-party resource used in this project:
+   
+   https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps142
+   
